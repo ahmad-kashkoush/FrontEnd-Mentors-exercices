@@ -6,3 +6,4 @@
 | [results-summary-component-main](results-summary-component-main/)              | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/results-summary-component-main/       |
 | [stats-preview-card-component-main](stats-preview-card-component-main/)        | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/stats-preview-card-component-main/    |
 | [3-column-preview-card-component-main/](3-column-preview-card-component-main/) | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/3-column-preview-card-component-main/ |
+| [order-summary-component-main/](order-summary-component-main/)                 | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/order-summary-component-main/         |
