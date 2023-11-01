@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root {
+  --background-color: hsl(225, 100%, 94%);
+  --heading-color: hsl(223, 47%, 23%);
+  --card-color: white;
+  --item-color: hsl(225, 100%, 98%);
+  --paragraph-color: hsl(224, 23%, 55%);
+  --button-color: hsl(245, 75%, 52%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--background-color);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+}
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+
+  background: var(--card-color);
+  border-radius: 15px;
+  text-align: center;
+}
+
+main > img {
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+main h1 {
+  font-weight: 900;
+  margin-top: 1.5rem;
+  color: var(--heading-color);
+  padding: 0 2rem;
+  font-size: 24px;
+}
+main > p {
+  margin-top: 1.5rem;
+  padding: 0 3rem;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--paragraph-color);
+}
+main .item {
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  /*  */
+  display: flex;
+  align-items: center;
+  /*  */
+  background-color: var(--item-color);
+  border-radius: inherit;
+  padding: 20px 10px;
+  width: calc(100% - 4rem);
+}
+main .item > img {
+  margin-left: 5px;
+}
+main .item > span {
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+main .item > span p:first-of-type {
+  color: var(--heading-color);
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+main .item > span p:last-of-type {
+  color: var(--paragraph-color);
+}
+main .item a {
+  color: var(--button-color);
+  margin-left: auto;
+  margin-right: 5px;
+}
+main .btn {
+  display: block;
+  width: calc(100% - 4rem);
+  text-align: center;
+  background-color: var(--button-color);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  padding: 15px 15px;
+  border-radius: inherit;
+  color: var(--card-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+main > a:last-of-type {
+  display: block;
+  margin: 1.5rem auto;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--paragraph-color);
+}
