@@ -21,7 +21,7 @@ This is a solution to the
 ### Links
 
 - Solution URL:
-  [Solution URL here](https:/github.com/ahmad-kashkoush/FrontEnd-Mentors-exercices/order-summary-component-main/)
+  [Solution URL here](https://github.com/ahmad-kashkoush/FrontEnd-Mentors-exercices/tree/main/order-summary-component-main)
 - Live Site URL:
   [Live Site Here](https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/order-summary-component-main/)
 
