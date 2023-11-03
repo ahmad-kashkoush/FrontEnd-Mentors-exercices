@@ -8,3 +8,4 @@
 | [3-column-preview-card-component-main/](3-column-preview-card-component-main/) | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/3-column-preview-card-component-main/ |
 | [order-summary-component-main/](order-summary-component-main/)                 | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/order-summary-component-main/         |
 | [single-price-grid-component-master](single-price-grid-component-master/)      | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/single-price-grid-component-master/   |
+| [product-preview-card-component-main/](product-preview-card-component-main/)   | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/product-preview-card-component-main/  |
