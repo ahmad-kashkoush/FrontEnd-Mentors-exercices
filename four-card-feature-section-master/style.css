@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --background-color: hsl(0, 0%, 98%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+main {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+main .sub-title {
+  text-align: center;
+  color: var(--GrayishBlue);
+  font-weight: 200;
+  font-size: 24px;
+}
+main h1 {
+  text-align: center;
+  color: var(--VeryDarkBlue);
+  font-weight: 700;
+  font-size: 24px;
+  /* margin-top: 1rem;*/
+}
+main > h1 + p {
+  text-align: center;
+  color: var(--GrayishBlue);
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  /* --padding: 3rem;
+  padding-left: var(--padding);
+  padding-right: var(--padding); */
+  padding: 0 3rem;
+}
+@media (min-width: 1000px) {
+  main > h1 + p {
+    margin-right: auto;
+    margin-left: auto;
+    width: 54%;
+  }
+}
+main .cards {
+  padding: 0 3rem;
+}
+/* TODO
+    - [ x] Finish Design
+    - [ ] Add Hover 
+*/
+main .cards .card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 340px;
+  margin-top: 20px;
+  box-shadow: 0px 8px 10px -0.5px var(--GrayishBlue);
+  border-top: 5px solid;
+}
+main .cards .card h2 {
+  color: var(--VeryDarkBlue);
+  font-size: 22px;
+}
+main .cards .card p {
+  color: var(--GrayishBlue);
+  margin-top: 10px;
+  font-size: 15px;
+}
+main .cards .img-wrapper {
+  text-align: right;
+  margin-top: 2rem;
+}
+main .cards .card-1 {
+  border-top-color: var(--Cyan);
+}
+main .cards .card-2 {
+  border-top-color: var(--Red);
+}
+main .cards .card-3 {
+  border-top-color: var(--Orange);
+}
+main .cards .card-4 {
+  border-top-color: var(--Blue);
+}
+main .card:hover {
+  transform: translateY(-2px);
+  background-color: var(--background-color);
+}
+
+@media (min-width: 1000px) {
+  main .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  main .cards .card-1 {
+    grid-area: 2/1/4/2;
+  }
+  main .cards .card-2 {
+    grid-area: 1/2/3/3;
+  }
+  main .cards .card-3 {
+    grid-area: 3/2/5/3;
+  }
+  main .cards .card-4 {
+    grid-area: 2/3/4/5;
+  }
+}
