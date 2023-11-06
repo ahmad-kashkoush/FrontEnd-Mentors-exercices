@@ -1,5 +1,7 @@
 # FrontEnd-Mentors-exercices
 
+## Newbie Exercices
+
 | code                                                                           | live site                                                                                          |
 | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | [qr-code-component-main](qr-code-component-main/)                              | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/qr-code-component-main/               |
@@ -11,3 +13,9 @@
 | [product-preview-card-component-main](product-preview-card-component-main/)    | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/product-preview-card-component-main/  |
 | [four-card-feature-section-master](four-card-feature-section-master/)          | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/four-card-feature-section-master/     |
 | [social-proof-section-master/](social-proof-section-master/)                   | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/four-card-feature-section-master/     |
+
+## Junior Exercices
+
+| code                                                               | live site                                                                                    |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| [testimonials-grid-section-main/](testimonials-grid-section-main/) | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/testimonials-grid-section-main/ |
