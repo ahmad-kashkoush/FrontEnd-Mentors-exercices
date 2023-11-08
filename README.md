@@ -16,6 +16,7 @@
 
 ## Junior Exercices
 
-| code                                                               | live site                                                                                    |
-| ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| [testimonials-grid-section-main/](testimonials-grid-section-main/) | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/testimonials-grid-section-main/ |
+| code                                                                                                | live site                                                                                                     |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| [testimonials-grid-section-main/](testimonials-grid-section-main/)                                  | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/testimonials-grid-section-main/                  |
+| [11.newsletter-sign-up-with-success-message-main](11.newsletter-sign-up-with-success-message-main/) | https://ahmad-kashkoush.github.io/FrontEnd-Mentors-exercices/11.newsletter-sign-up-with-success-message-main/ |
