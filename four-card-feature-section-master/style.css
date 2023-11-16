@@ -107,6 +107,15 @@ main .card:hover {
   background-color: var(--background-color);
 }
 
+/* animation CSS properties */
+main .card {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+/* end animation */
+
 @media (min-width: 1000px) {
   main .cards {
     display: grid;
