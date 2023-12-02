@@ -24,3 +24,5 @@
 | [expense-chart-componentn](https://github.com/ahmad-kashkoush/expense-chart-component)              | https://expense-chart-component-rho.vercel.app/                                                               |
 | [interactive-card-details-form](https://github.com/ahmad-kashkoush/interactive-card-details-form)   | https://interactive-card-details-form-green-chi.vercel.app/                                                   |
 | [intro-section-with-dropdown](https://github.com/ahmad-kashkoush/intro-section-with-dropdown)       | https://intro-section-with-dropdown-zeta.vercel.app/                                                          |
+| [time-tracking-dashboard](https://github.com/ahmad-kashkoush/time-tracking-dashboard)               | https://time-tracking-dashboard-five-rust.vercel.app/                                                         |
+| [blogr-landing-page](https://github.com/ahmad-kashkoush/blogr-landing-page)                         | https://blogr-landing-page-beta-pearl.vercel.app/                                                             |
