@@ -48,3 +48,21 @@ document.addEventListener("keydown", function (e) {
     if (e.key === "Escape")
         showMainContainer(e);
 });
+
+
+// for dark mode 
+
+let btn = document.querySelector(".btn");
+btn.addEventListener("click" , ()=>{
+        document.querySelector(".bdy").classList.toggle("dark")
+    document.querySelector("main").classList.toggle("dark")
+    document.querySelector(".success").classList.toggle("dark")
+    document.querySelector(".header-img").classList.toggle("dark")
+    document.querySelector(".success h1").classList.toggle("dark")
+    document.querySelector(".success p").classList.toggle("dark")
+    document.querySelector(".content h1").classList.toggle("dark")
+    document.querySelector(".content p").classList.toggle("dark")
+    document.querySelector("form label").classList.toggle("dark")
+})
+
+    
